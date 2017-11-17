@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleDump", "OracleDump\OracleDump.csproj", "{96171925-7EB8-43A5-AAD4-13D909B26A78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyOracleDump", "OracleDump\EasyOracleDump.csproj", "{96171925-7EB8-43A5-AAD4-13D909B26A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
