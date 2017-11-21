@@ -1,0 +1,9 @@
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\bin\Debug\OracleDump.exe.config
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\bin\Debug\OracleDump.exe
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\bin\Debug\OracleDump.pdb
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\obj\Debug\OracleDump.csprojResolveAssemblyReference.cache
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\obj\Debug\OracleDump.Form1.resources
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\obj\Debug\OracleDump.Properties.Resources.resources
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\obj\Debug\OracleDump.csproj.GenerateResource.Cache
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\obj\Debug\OracleDump.exe
+c:\users\lorran.palmeira\documents\visual studio 2015\Projects\OracleDump\OracleDump\obj\Debug\OracleDump.pdb

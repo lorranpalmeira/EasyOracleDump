@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Management;
 
 namespace OracleDump
 {
@@ -47,9 +48,10 @@ namespace OracleDump
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+            //WMIC / node:ComputerName process call create “cmd.exe / c GPUpdate.exe”
         }
 
+       
 
     }
 }
