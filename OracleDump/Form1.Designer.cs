@@ -74,21 +74,21 @@
             this.remap_schema_from.Location = new System.Drawing.Point(144, 156);
             this.remap_schema_from.Name = "remap_schema_from";
             this.remap_schema_from.Size = new System.Drawing.Size(100, 20);
-            this.remap_schema_from.TabIndex = 0;
+            this.remap_schema_from.TabIndex = 6;
             // 
             // opcional
             // 
             this.opcional.Location = new System.Drawing.Point(144, 211);
             this.opcional.Name = "opcional";
             this.opcional.Size = new System.Drawing.Size(522, 20);
-            this.opcional.TabIndex = 1;
+            this.opcional.TabIndex = 12;
             // 
             // remap_tablespace_from
             // 
             this.remap_tablespace_from.Location = new System.Drawing.Point(144, 185);
             this.remap_tablespace_from.Name = "remap_tablespace_from";
             this.remap_tablespace_from.Size = new System.Drawing.Size(100, 20);
-            this.remap_tablespace_from.TabIndex = 5;
+            this.remap_tablespace_from.TabIndex = 8;
             // 
             // label1
             // 
@@ -96,7 +96,7 @@
             this.label1.Location = new System.Drawing.Point(12, 163);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 13);
-            this.label1.TabIndex = 6;
+            this.label1.TabIndex = 33;
             this.label1.Text = "Remap Schema from:";
             // 
             // label2
@@ -105,7 +105,7 @@
             this.label2.Location = new System.Drawing.Point(13, 189);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 13);
-            this.label2.TabIndex = 7;
+            this.label2.TabIndex = 32;
             this.label2.Text = "Remap Tablespace from:";
             // 
             // label6
@@ -114,7 +114,7 @@
             this.label6.Location = new System.Drawing.Point(13, 214);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 13);
-            this.label6.TabIndex = 11;
+            this.label6.TabIndex = 31;
             this.label6.Text = "Opcional :";
             // 
             // label7
@@ -123,7 +123,7 @@
             this.label7.Location = new System.Drawing.Point(250, 159);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(23, 13);
-            this.label7.TabIndex = 12;
+            this.label7.TabIndex = 30;
             this.label7.Text = "To:";
             // 
             // remap_schema_to
@@ -131,14 +131,14 @@
             this.remap_schema_to.Location = new System.Drawing.Point(285, 156);
             this.remap_schema_to.Name = "remap_schema_to";
             this.remap_schema_to.Size = new System.Drawing.Size(100, 20);
-            this.remap_schema_to.TabIndex = 13;
+            this.remap_schema_to.TabIndex = 7;
             // 
             // remap_tablespace_to
             // 
             this.remap_tablespace_to.Location = new System.Drawing.Point(285, 182);
             this.remap_tablespace_to.Name = "remap_tablespace_to";
             this.remap_tablespace_to.Size = new System.Drawing.Size(100, 20);
-            this.remap_tablespace_to.TabIndex = 14;
+            this.remap_tablespace_to.TabIndex = 9;
             // 
             // label8
             // 
@@ -146,7 +146,7 @@
             this.label8.Location = new System.Drawing.Point(250, 188);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(23, 13);
-            this.label8.TabIndex = 15;
+            this.label8.TabIndex = 29;
             this.label8.Text = "To:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
@@ -156,8 +156,7 @@
             this.expdp_radio.Location = new System.Drawing.Point(144, 13);
             this.expdp_radio.Name = "expdp_radio";
             this.expdp_radio.Size = new System.Drawing.Size(55, 17);
-            this.expdp_radio.TabIndex = 16;
-            this.expdp_radio.TabStop = true;
+            this.expdp_radio.TabIndex = 0;
             this.expdp_radio.Text = "Expdp";
             this.expdp_radio.UseVisualStyleBackColor = true;
             // 
@@ -167,8 +166,7 @@
             this.impdp_radio.Location = new System.Drawing.Point(144, 30);
             this.impdp_radio.Name = "impdp_radio";
             this.impdp_radio.Size = new System.Drawing.Size(54, 17);
-            this.impdp_radio.TabIndex = 17;
-            this.impdp_radio.TabStop = true;
+            this.impdp_radio.TabIndex = 1;
             this.impdp_radio.Text = "Impdp";
             this.impdp_radio.UseVisualStyleBackColor = true;
             // 
@@ -178,7 +176,7 @@
             this.label9.Location = new System.Drawing.Point(13, 17);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(37, 13);
-            this.label9.TabIndex = 18;
+            this.label9.TabIndex = 1;
             this.label9.Text = "Type :";
             // 
             // command
@@ -187,14 +185,14 @@
             this.command.Multiline = true;
             this.command.Name = "command";
             this.command.Size = new System.Drawing.Size(500, 38);
-            this.command.TabIndex = 19;
+            this.command.TabIndex = 14;
             // 
             // go_button
             // 
             this.go_button.Location = new System.Drawing.Point(12, 239);
             this.go_button.Name = "go_button";
             this.go_button.Size = new System.Drawing.Size(75, 23);
-            this.go_button.TabIndex = 20;
+            this.go_button.TabIndex = 13;
             this.go_button.Text = "Go";
             this.go_button.UseVisualStyleBackColor = true;
             this.go_button.Click += new System.EventHandler(this.button1_Click);
@@ -204,7 +202,7 @@
             this.button2.Location = new System.Drawing.Point(20, 389);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 23);
-            this.button2.TabIndex = 21;
+            this.button2.TabIndex = 19;
             this.button2.Text = "Send To Server";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -215,7 +213,7 @@
             this.label10.Location = new System.Drawing.Point(12, 360);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 22;
+            this.label10.TabIndex = 25;
             this.label10.Text = "Server:";
             // 
             // textBox10
@@ -223,14 +221,14 @@
             this.textBox10.Location = new System.Drawing.Point(144, 353);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 23;
+            this.textBox10.TabIndex = 17;
             // 
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(324, 349);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 24;
+            this.textBox11.TabIndex = 18;
             this.textBox11.UseSystemPasswordChar = true;
             // 
             // textBox12
@@ -238,7 +236,7 @@
             this.textBox12.Location = new System.Drawing.Point(489, 350);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 25;
+            this.textBox12.TabIndex = 22;
             // 
             // label11
             // 
@@ -246,7 +244,7 @@
             this.label11.Location = new System.Drawing.Point(17, 428);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(40, 13);
-            this.label11.TabIndex = 26;
+            this.label11.TabIndex = 20;
             this.label11.Text = "Status:";
             // 
             // label12
@@ -255,7 +253,7 @@
             this.label12.Location = new System.Drawing.Point(250, 356);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(59, 13);
-            this.label12.TabIndex = 27;
+            this.label12.TabIndex = 24;
             this.label12.Text = "Password :";
             // 
             // label13
@@ -264,7 +262,7 @@
             this.label13.Location = new System.Drawing.Point(432, 353);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(51, 13);
-            this.label13.TabIndex = 28;
+            this.label13.TabIndex = 23;
             this.label13.Text = "Instance:";
             // 
             // label14
@@ -273,7 +271,7 @@
             this.label14.Location = new System.Drawing.Point(75, 428);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(47, 13);
-            this.label14.TabIndex = 29;
+            this.label14.TabIndex = 21;
             this.label14.Text = "Stopped";
             // 
             // label16
@@ -282,7 +280,7 @@
             this.label16.Location = new System.Drawing.Point(12, 276);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(57, 13);
-            this.label16.TabIndex = 31;
+            this.label16.TabIndex = 26;
             this.label16.Text = "Command:";
             // 
             // remap_ts_index_from
@@ -290,14 +288,14 @@
             this.remap_ts_index_from.Location = new System.Drawing.Point(435, 178);
             this.remap_ts_index_from.Name = "remap_ts_index_from";
             this.remap_ts_index_from.Size = new System.Drawing.Size(100, 20);
-            this.remap_ts_index_from.TabIndex = 36;
+            this.remap_ts_index_from.TabIndex = 10;
             // 
             // remap_ts_index_to
             // 
             this.remap_ts_index_to.Location = new System.Drawing.Point(566, 179);
             this.remap_ts_index_to.Name = "remap_ts_index_to";
             this.remap_ts_index_to.Size = new System.Drawing.Size(100, 20);
-            this.remap_ts_index_to.TabIndex = 37;
+            this.remap_ts_index_to.TabIndex = 11;
             // 
             // label18
             // 
@@ -305,7 +303,7 @@
             this.label18.Location = new System.Drawing.Point(391, 185);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(33, 13);
-            this.label18.TabIndex = 38;
+            this.label18.TabIndex = 28;
             this.label18.Text = "From:";
             // 
             // label19
@@ -314,16 +312,17 @@
             this.label19.Location = new System.Drawing.Point(537, 182);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(23, 13);
-            this.label19.TabIndex = 39;
+            this.label19.TabIndex = 27;
             this.label19.Text = "To:";
             // 
             // linux
             // 
             this.linux.AutoSize = true;
+            this.linux.Checked = true;
             this.linux.Location = new System.Drawing.Point(144, 320);
             this.linux.Name = "linux";
             this.linux.Size = new System.Drawing.Size(50, 17);
-            this.linux.TabIndex = 40;
+            this.linux.TabIndex = 15;
             this.linux.TabStop = true;
             this.linux.Text = "Linux";
             this.linux.UseVisualStyleBackColor = true;
@@ -334,8 +333,7 @@
             this.windows.Location = new System.Drawing.Point(235, 320);
             this.windows.Name = "windows";
             this.windows.Size = new System.Drawing.Size(69, 17);
-            this.windows.TabIndex = 41;
-            this.windows.TabStop = true;
+            this.windows.TabIndex = 16;
             this.windows.Text = "Windows";
             this.windows.UseVisualStyleBackColor = true;
             // 
@@ -344,7 +342,7 @@
             this.schemas.Location = new System.Drawing.Point(144, 130);
             this.schemas.Name = "schemas";
             this.schemas.Size = new System.Drawing.Size(100, 20);
-            this.schemas.TabIndex = 49;
+            this.schemas.TabIndex = 5;
             // 
             // label15
             // 
@@ -352,7 +350,7 @@
             this.label15.Location = new System.Drawing.Point(12, 133);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(54, 13);
-            this.label15.TabIndex = 48;
+            this.label15.TabIndex = 34;
             this.label15.Text = "Schemas:";
             // 
             // label5
@@ -361,7 +359,7 @@
             this.label5.Location = new System.Drawing.Point(13, 111);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
-            this.label5.TabIndex = 47;
+            this.label5.TabIndex = 35;
             this.label5.Text = "Logfile :";
             // 
             // label4
@@ -370,7 +368,7 @@
             this.label4.Location = new System.Drawing.Point(13, 85);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 13);
-            this.label4.TabIndex = 46;
+            this.label4.TabIndex = 36;
             this.label4.Text = "Dumpfile :";
             // 
             // label3
@@ -379,7 +377,7 @@
             this.label3.Location = new System.Drawing.Point(12, 59);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
-            this.label3.TabIndex = 45;
+            this.label3.TabIndex = 37;
             this.label3.Text = "Directory:";
             // 
             // directory
@@ -387,21 +385,21 @@
             this.directory.Location = new System.Drawing.Point(144, 52);
             this.directory.Name = "directory";
             this.directory.Size = new System.Drawing.Size(100, 20);
-            this.directory.TabIndex = 44;
+            this.directory.TabIndex = 2;
             // 
             // dumpfile
             // 
             this.dumpfile.Location = new System.Drawing.Point(144, 78);
             this.dumpfile.Name = "dumpfile";
             this.dumpfile.Size = new System.Drawing.Size(100, 20);
-            this.dumpfile.TabIndex = 43;
+            this.dumpfile.TabIndex = 3;
             // 
             // logfile
             // 
             this.logfile.Location = new System.Drawing.Point(144, 104);
             this.logfile.Name = "logfile";
             this.logfile.Size = new System.Drawing.Size(100, 20);
-            this.logfile.TabIndex = 42;
+            this.logfile.TabIndex = 4;
             // 
             // Form1
             // 
@@ -448,7 +446,7 @@
             this.Controls.Add(this.opcional);
             this.Controls.Add(this.remap_schema_from);
             this.Name = "Form1";
-            this.Text = "Easy Oracle Dump";
+            this.Text = "1";
             this.Load += new System.EventHandler(this.Dump_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

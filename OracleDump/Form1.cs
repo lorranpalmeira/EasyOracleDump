@@ -48,7 +48,20 @@ namespace OracleDump
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //WMIC / node:ComputerName process call create “cmd.exe / c GPUpdate.exe”
+            
+
+            if (linux.Checked)
+            {
+                //Call Putty
+                MessageBox.Show(command.Text);
+            }
+            else if (windows.Checked) {
+                //Call PSEXEC.
+                MessageBox.Show(command.Text);
+            }
+            
+            
+
         }
 
        
