@@ -120,7 +120,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(256, 159);
+            this.label7.Location = new System.Drawing.Point(250, 159);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(23, 13);
             this.label7.TabIndex = 12;
@@ -294,7 +294,7 @@
             // 
             // remap_ts_index_to
             // 
-            this.remap_ts_index_to.Location = new System.Drawing.Point(566, 175);
+            this.remap_ts_index_to.Location = new System.Drawing.Point(566, 179);
             this.remap_ts_index_to.Name = "remap_ts_index_to";
             this.remap_ts_index_to.Size = new System.Drawing.Size(100, 20);
             this.remap_ts_index_to.TabIndex = 37;
